@@ -1,0 +1,7 @@
+interaction_id,user_id,item_id,rating,timestamp,validation_errors
+BAD0001,U0001,I0001,7,2026-02-01,invalid_rating_or_type;invalid_timestamp
+BAD0002,U0002,I0002,4,not-a-date,invalid_timestamp
+BAD0003,U9999,I0003,5,2026-02-02,invalid_timestamp;unknown_user
+BAD0004,U0004,I9999,3,2026-02-03,invalid_timestamp;unknown_item
+BAD0005,,I0005,4,2026-02-04,missing_required;invalid_timestamp;unknown_user
+E000000,U0189,I0040,5,2025-06-02 00:00:00,duplicate_interaction_id

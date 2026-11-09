@@ -1,0 +1,14 @@
+{
+  "input_interactions": 6006,
+  "valid_interactions": 6000,
+  "rejected_interactions": 6,
+  "checks": {
+    "missing_required_fields": 1,
+    "duplicate_interaction_ids": 1,
+    "invalid_rating_or_type": 1,
+    "invalid_timestamps": 5,
+    "unknown_users": 2,
+    "unknown_items": 1
+  },
+  "status": "PASS"
+}

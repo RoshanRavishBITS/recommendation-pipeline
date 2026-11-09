@@ -1,0 +1,13 @@
+{
+  "status": "SUCCESS",
+  "users": 250,
+  "items": 100,
+  "valid_interactions": 6000,
+  "train_interactions": 4802,
+  "test_interactions": 1198,
+  "models": [
+    "Popularity baseline",
+    "Item-item collaborative filtering"
+  ],
+  "evaluation_file": "reports/evaluation_results.csv"
+}

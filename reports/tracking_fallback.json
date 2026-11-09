@@ -1,0 +1,22 @@
+{
+  "tracker": "JSON fallback (MLflow unavailable)",
+  "reason": "The filesystem tracking backend (e.g., './mlruns') is in maintenance mode and will not receive further updates. Please migrate to a database backend (e.g., 'sqlite:///mlflow.db') to access the latest MLflow features. The `mlflow migrate-filestore` tool migrates your existing data losslessly. See https://mlflow.org/docs/latest/self-hosting/migrate-from-file-store for migration guidance. If the filesystem backend is required for your workflow, set `MLFLOW_ALLOW_FILE_STORE=true` to opt out of this exception.",
+  "results": [
+    {
+      "Model": "Popularity baseline",
+      "Precision@5": 0.028,
+      "Recall@5": 0.03184761904761905,
+      "NDCG@5": 0.02921190495649597,
+      "Coverage": 0.14,
+      "Diversity": 0.43439999999999995
+    },
+    {
+      "Model": "Item-item collaborative filtering",
+      "Precision@5": 0.14959999999999998,
+      "Recall@5": 0.1756,
+      "NDCG@5": 0.170149903250323,
+      "Coverage": 0.86,
+      "Diversity": 0.26239999999999997
+    }
+  ]
+}
